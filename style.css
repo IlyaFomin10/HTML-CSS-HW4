@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.theses {
+    display: grid;
+    grid-template-columns: repeat(3, 370px);
+    grid-template-rows: auto;
+    justify-content: center;
+    padding: 100px 0;
+}
+
+.item {
+    display: grid;
+    justify-items: left;
+    padding: 40px 30px 25px 30px;
+    margin-right: 30px;
+}
+
+.middle {
+    background: white;
+    box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06)
+}
+
+.item_img {
+    margin-bottom: 25px;
+}
+
+.heading {
+    margin-bottom: 17px;
+    color: black;
+    font-size: 24px;
+    font-family: Gilroy-Bold;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.item_text {
+    margin-bottom: 25px;
+    color: #666666;
+    font-size: 15px;
+    font-family: Gilroy-Regular;
+    font-weight: 400;
+    line-height: 22.50px;
+    word-wrap: break-word
+}
+
+.item_more {
+    color: black;
+    font-size: 11px;
+    font-family: Gilroy-Bold;
+    font-weight: 400;
+    line-height: 16.50px;
+    word-wrap: break-word;
+}
+
+.choose {
+    padding: 100px 0;
+    background: #FAFAFA;
+}
+
+.block1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    color: black;
+    font-size: 45px;
+    font-family: Gilroy-Bold;
+    font-weight: 400;
+    word-wrap: break-word;
+    margin-bottom: 19px;
+}
+
+.chose_text {
+    color: #666666;
+    font-size: 16px;
+    font-family: Gilroy-Regular;
+    font-weight: 400;
+    line-height: 24px;
+    word-wrap: break-word;
+    margin-bottom: 54px;
+    text-align: center;
+}
+
+.block2 {
+    display: grid;
+    grid-template-columns: repeat(3, 370px);
+    grid-template-rows: auto;
+    justify-content: center;
+    gap: 30px;
+}
+
+.advantage {
+    display: grid;
+    justify-items: center;
+    padding-bottom: 50px;
+    background: white
+}
+
+.advantage_text {
+    color: #AAAAAA;
+    font-size: 15px;
+    font-family: Gilroy-Regular;
+    font-weight: 400;
+    line-height: 22.50px;
+    word-wrap: break-word;
+    margin-bottom: 40px;
+    text-align: center;
+    width: 310px;
+}
+
+.button {
+    background: #F25822;
+    box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.20);
+    border-radius: 50px;
+    color: white;
+    font-size: 13px;
+    font-family: Gilroy-Bold;
+    font-weight: 400;
+    line-height: 19.50px;
+    word-wrap: break-word;
+    width: 150px;
+    height: 50px;
+}
+
+.img-button {
+    padding-left: 6px;
+}
